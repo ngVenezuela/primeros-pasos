@@ -5,7 +5,7 @@
 
   - [Conceptos Básicos.](#conceptos-basicos) 
   - Códigos de Ejemplo Documentados.
-  - Enlaces y Referecias a Librerias.
+  - [Enlaces y Referecias a Librerias.](#modulos-adicionales)
   - Recursos en Linea .
 
 
@@ -17,7 +17,7 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 
 
-### Que necesito comenzar con a Aprender AngularJS
+### Que necesito para comenzar con a Aprender AngularJS
 
 * Conocimientos de Javascript *
 * Tu editor de Texto o IDE Favorito
@@ -26,7 +26,7 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 **Nota:** Te recomendamos antes de aprender un framework dominar el lenguaje en el que esta basado para aprovechar todas sus bondades.
 
-### Recursos para aprender Javacsript
+### Recursos para aprender Javascript
 - En Español:
     - [Codecademy](https://www.codecademy.com/tracks/javascript) : Un excelente recurso para aprender lo básico del lenguaje.
 
@@ -54,5 +54,5 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 ### Modulos Adicionales
 
-- [Angular-resource](https://code.angularjs.org/1.4.4/angular-resource.min.js): 
-- [Angular-route](https://code.angularjs.org/1.4.4/angular-route.min.js):
+- [Angular-resource](https://code.angularjs.org/1.4.4/angular-resource.min.js): el módulo *ngREsource* provee soporte para interactuar con servicios REST-Full por medio del servicio *$resource*. 
+- [Angular-route](https://code.angularjs.org/1.4.4/angular-route.min.js): el modulo *ngRoute* provee servicios de enrutemiento y enlazado profundo, asi como tambien directivas para Aplicaciones Angular.
