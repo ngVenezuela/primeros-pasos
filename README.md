@@ -3,13 +3,13 @@
 
 ¿Eres nuevo con Angular? Este repo te guiará un poco sobre cómo empezar a conocer este maravilloso framework. Aquí podrás encontrar:
 
-  - Conceptos Básicos.
+  - [Conceptos Básicos.](### conceptos-básicos) 
   - Códigos de Ejemplo Documentados.
   - Enlaces y Referecias a Librerias.
   - Recursos en Linea .
 
 
-Somos una comunidad que promeve el aprendizaje colectivo, con miembros dispuestos a enseñar, aprender y compartir conocimiento. Queremos invitarte a que formes parte de ella. Encuentranos en nuetsras redes:
+Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuestos a enseñar, aprender y compartir conocimientos. Queremos invitarte a que formes parte de ella. Encuentranos en nuetsras redes:
 
  - [Google Groups](bit.ly/ng-venezuela-google-groups) : Tienes alguna duda sobre el framework ven y participa en nuestro foro.
  - [Telegram](bit.ly/ng-venezuela-telegram): Ḿantente en contacto con los demas mienbros, enterete y comparte recursos y enlaces de interes con nosotros.
