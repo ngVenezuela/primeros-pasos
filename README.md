@@ -3,7 +3,7 @@
 
 ¿Eres nuevo con Angular? Este repo te guiará un poco sobre cómo empezar a conocer este maravilloso framework. Aquí podrás encontrar:
 
-  - [Conceptos Básicos.](### conceptos-básicos) 
+  - [Conceptos Básicos.](#conceptos-basicos) 
   - Códigos de Ejemplo Documentados.
   - Enlaces y Referecias a Librerias.
   - Recursos en Linea .
@@ -35,7 +35,7 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 
 ## Primeros Pasos
-### Conceptos Básicos
+### Conceptos Basicos
 - ¿Que es un Framework?
 - ¿Que es AngularJS?
 - ¿Ventahas de usar AngularJS?
