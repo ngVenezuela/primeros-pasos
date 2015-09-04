@@ -17,10 +17,10 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 
 
-### Que necesito para comenzar con a Aprender AngularJS
+### Que necesito para comenzar a Aprender AngularJS
 
 * Conocimientos de Javascript *
-* Tu editor de Texto o IDE Favorito
+* Tu editor de Texto o IDE Favorito (Como [Sublime](http://www.sublimetext.com/),[Atom](https://atom.io/) o [NotePad](https://notepad-plus-plus.org/))
 * Un Navegador Web. 
 * Motivación por aprender y dominar este magnifico Framework
 
@@ -38,7 +38,7 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 ### Conceptos Basicos
 - ¿Que es un Framework?
 - ¿Que es AngularJS?
-- ¿Ventahas de usar AngularJS?
+- ¿Ventajas de usar AngularJS?
 - Instalar AngularJS
 - Directives (Directivas )
 - Module (Modulos)
