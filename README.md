@@ -61,9 +61,13 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 ### Que es AngularJS
 
-AngularJS es un framework javascript que permite desarrolla aplicaciones web del lado del cliente, basado en el 
-patrón de diseño MVVM (Modelo - Vista - Vista - Modelo) y el desarrollo de sitios SPA (Aplicaciones de una sola 
-página).
+AngularJS es un framework javascript estructural para el desarrollo de aplicaciones web dinamicas del lado del cliente, basado en el 
+patrón de diseño MVVM (Modelo - Vista - Vista - Modelo) y el desarrollo de sitios SPA (Aplicaciones de una sola página). AngularJs te 
+permite extender la sintaxis de HTML para expresar clara y concisamente tus componentes de aplicacion, esto es gracias a que Angular 
+le enseña al navegador una nueva sintaxis a través de la contrucción de [directivas](#directives), así como también de contar con 
+características como el [Data-Binding](#data-bindig) y [Dependecy Injection](#dependecy-injection) puede ahorrarte líneas de código
+que de otra forma tendrías que escribir. Todo esto ocurre dentro del navegador, haciendo de AngularJS el compañero ideal de cualquier 
+tecnología del lado del servidor.
 [Volver Indice](#conceptos-basicos)
 
 ### Ventajas de usar AngularJS
