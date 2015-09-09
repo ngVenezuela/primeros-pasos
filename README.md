@@ -61,7 +61,7 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 ### Recursos En Linea
 
-- [Documentacion Guia para Desarrolladores  oficial de AngularJS](https://docs.angularjs.org/guide) (English)
+- [Guia para Desarrolladores  oficial de AngularJS](https://docs.angularjs.org/guide) (English)
 - [Referencia del API oficial de AngularJS](https://docs.angularjs.org/api) (English)
-- [Curso de AngularJS en codecademy](https://www.codecademy.com/es/courses/learn-angularjs)
-- [Shaping up with angular.JS](http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro)
+- [Curso de AngularJS en codecademy](https://www.codecademy.com/es/courses/learn-angularjs) (English)
+- [Shaping up with angular.JS](http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro) (English)
