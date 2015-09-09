@@ -31,6 +31,7 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 ### Recursos para aprender Javascript
 - En Español:
     - [Codecademy](https://www.codecademy.com/tracks/javascript) : Un excelente recurso para aprender lo básico del lenguaje.
+    - [Guía de Javascript de MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide): la gente de Mozilla nos ofrece esta excelente guía sobre el lenguaje.
 
 - English:
     - [JavaScript for Cats](http://jsforcats.com/): So easy your human companion could do it too !
