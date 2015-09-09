@@ -7,7 +7,7 @@
   - [Conceptos Básicos.](#conceptos-basicos) 
   - Códigos de Ejemplo Documentados.
   - [Enlaces y Referecias a Librerias.](#modulos-adicionales)
-  - Recursos en Linea .
+  - [Recursos en Linea.](#recursos-en-linea)
 
 
 Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuestos a enseñar, aprender y compartir conocimientos. Queremos invitarte a que formes parte de ella. Encuentranos en nuetsras redes:
@@ -57,3 +57,11 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 - [Angular-resource](https://code.angularjs.org/1.4.4/angular-resource.min.js): el módulo **ngResource** provee soporte para interactuar con servicios REST-Full por medio del servicio **$resource**. 
 - [Angular-route](https://code.angularjs.org/1.4.4/angular-route.min.js): el modulo **ngRoute** provee servicios de enrutemiento y enlazado profundo, asi como tambien directivas para Aplicaciones Angular.
+
+
+### Recursos En Linea
+
+- [Documentacion Guia para Desarrolladores  oficial de AngularJS](https://docs.angularjs.org/guide) (English)
+- [Referencia del API oficial de AngularJS](https://docs.angularjs.org/api) (English)
+- [Curso de AngularJS en codecademy](https://www.codecademy.com/es/courses/learn-angularjs)
+- [Shaping up with angular.JS](http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro)
