@@ -1,6 +1,6 @@
 # ngVenezuela
 ```
-![logo](https://github.com/ngVenezuela/press-kit/blob/master/img/logo/logo_angular.png =450x400)
+![logo](https://github.com/ngVenezuela/press-kit/blob/master/img/logo/logo_angular.png)
 ``` 
 ¿Eres nuevo con Angular? Este repo te guiará un poco sobre cómo empezar a conocer este maravilloso framework. Aquí podrás encontrar:
 
@@ -55,11 +55,35 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 
 [Volver](#ngvenezuela)
 
+### Que Es Un Framework
+
+[Volver Indice](conceptos-basicos)
+
+### Que es AngularJS
+
+AngularJS es un framework javascript que permite desarrolla aplicaciones web del lado del cliente, basado en el 
+patrón de diseño MVVM (Modelo - Vista - Vista - Modelo) y el desarrollo de sitios SPA (Aplicaciones de una sola 
+página).
+[Volver Indice](conceptos-basicos)
+
+### Ventajas de usar AngularJS
+
+[Volver Indice](conceptos-basicos)
+
+### Instalar AngularJS
+
+[Volver Indice](conceptos-basicos)
+
+### Directives
+
+[Volver Indice](conceptos-basicos)
+
 ### Modulos Adicionales
 
 - [Angular-resource](https://code.angularjs.org/1.4.4/angular-resource.min.js): el módulo **ngResource** provee soporte para interactuar con servicios REST-Full por medio del servicio **$resource**. 
 - [Angular-route](https://code.angularjs.org/1.4.4/angular-route.min.js): el modulo **ngRoute** provee servicios de enrutemiento y enlazado profundo, asi como tambien directivas para Aplicaciones Angular.
 
+[Volver](#ngvenezuela)
 
 ### Recursos En Linea
 
@@ -67,3 +91,5 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 - [Referencia del API oficial de AngularJS](https://docs.angularjs.org/api) (English)
 - [Curso de AngularJS en codecademy](https://www.codecademy.com/es/courses/learn-angularjs) (English)
 - [Shaping up with angular.JS](http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro) (English)
+
+[Volver](#ngvenezuela)
