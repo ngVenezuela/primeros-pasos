@@ -53,6 +53,8 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 - Templates (Plantillas)
 - Forms (Formularios)
 
+[Volver](#ngvenezuela)
+
 ### Modulos Adicionales
 
 - [Angular-resource](https://code.angularjs.org/1.4.4/angular-resource.min.js): el módulo **ngResource** provee soporte para interactuar con servicios REST-Full por medio del servicio **$resource**. 
