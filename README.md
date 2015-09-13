@@ -104,7 +104,7 @@ puedes aplicar varios filtros con la siguiente sintaxis:
 ```
 {{ valor | filtro1:arg1:arg2:argN }}
 ```
-Puedes ver un pequeno ejemplo de codigo [AQUI](https://github.com/JMEspiz/primeros-pasos/blob/master/Ejemplos/filter.html).
+Puedes ver un pequeno ejemplo de codigo [AQUI](https://github.com/ngVenezuela/primeros-pasos/blob/master/Ejemplos/filter.html).
 Para crear tus propios filtros puedes guiarte por este ejemplo en la [documentacion oficial](https://docs.angularjs.org/guide/filter)
 ```
 angular.module('myReverseFilterApp', [])
