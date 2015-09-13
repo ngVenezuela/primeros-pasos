@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Jugando con los filtros </title>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"> </script>
+			<style type="text/css">
+				body{
+					text-align: center;
+				}
+				span{
+					font-size: 14;
+					font-weight: bolder;
+					color: blue;
+				}
+			</style>
+		</head>
+		<body ng-app>
+			<h1>Jugando con los filtros:</h1>
+			<p> Ingresa un numero y veras como se le aplica el filtro currency</p>
+			<!-- En el input se leera la cantidad y la imprimira con el formato de moneda -->
+			<input type="text" ng-model="cant" placeholder="Escribe una cantidad">
+			<p> Filtro  moneda: <span>{{ cant | currency:'Bs'}} </span></p>
+			<p> o puede escribir alguna oracion minusculas y </p>
+			<input type="text" ng-model="nombre" placeholder="escribe en minusculas">
+			<p> aplicar el filtro de mayusculas: <span>{{ nombre | uppercase }}</span></p>
+		</body>	
+	</html>

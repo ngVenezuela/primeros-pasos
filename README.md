@@ -2,7 +2,6 @@
 
 ![logo](https://raw.githubusercontent.com/ngVenezuela/press-kit/master/img/logo/logo_angular_ve_github.png)
 
-
 ¿Eres nuevo con Angular? Este repo te guiará un poco sobre cómo empezar a conocer este maravilloso framework. Aquí podrás encontrar:
 
   - [Conceptos Básicos.](#conceptos-basicos) 
@@ -31,6 +30,7 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 ### Recursos para aprender Javascript
 - En Español:
     - [Codecademy](https://www.codecademy.com/tracks/javascript) : Un excelente recurso para aprender lo básico del lenguaje.
+    - [Guía de Javascript de MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide): la gente de Mozilla nos ofrece esta excelente guía sobre el lenguaje.
 
 - English:
     - [JavaScript for Cats](http://jsforcats.com/): So easy your human companion could do it too !
@@ -93,9 +93,40 @@ tecnología del lado del servidor.
 [Volver Indice](#conceptos-basicos)
 
 ### Filters
+Un filtro da formato al valor de una expresion para la visualizacion de los usuarios. Los filtros pueden ser usados en las plantillas de vistas, controladores o servicios. AngularJS cuenta con vaios filtros predeterminados para dar formato como el caso de modena (currency), fecha (Date), mayusculas (uppercase), minisculas (lowercase), json (json) e incluso nos brinda la facilidad de crear nuestros propios filtros.  Para aplicar filtros lo podemos hacer de la siguiente forma:
+```
+{{ valor | filtro }}
+
+{{ 100 | currency }}
+```
+puedes aplicar varios filtros con la siguiente sintaxis:
+```
+{{ valor | filtro1:arg1:arg2:argN }}
+```
+Puedes ver un pequeno ejemplo de codigo [AQUI](https://github.com/ngVenezuela/primeros-pasos/blob/master/Ejemplos/filter.html).
+Para crear tus propios filtros puedes guiarte por este ejemplo en la [documentacion oficial](https://docs.angularjs.org/guide/filter)
+```
+angular.module('myReverseFilterApp', [])
+.filter('reverse', function() {
+  return function(input, uppercase) {
+    input = input || '';
+    var out = "";
+    for (var i = 0; i < input.length; i++) {
+      out = input.charAt(i) + out;
+    }
+    // conditional based on optional argument
+    if (uppercase) {
+      out = out.toUpperCase();
+    }
+    return out;
+  };
+})
+```
+primero se define el modulo de nuestra aplicación angular, luego se usa el método **filter** el cual recibe como primer parámetro el nombre de nuestro filtro personalizado y como segundo una función que retorna una nueva función en donde se especificaran los argumentos y la lógica que definirá nuestro nuevo formato.
 [Volver Indice](#conceptos-basicos)
 
 ### Data Binding
+Data-bindig en aplicaciones Angular hace referencia a la sincronización automática entre los los componentes del modelo ([Model](#models)) y las vista (Views).  Lo cual conlleva a que todo cambio realizado en el modelo estos serán reflejados en la vista y viceversa. Este proceso es conocido como Two-Way Data Binding, donde podemos considerar la vista como una proyección instantánea del modelo, lo que deja a el controlador ([controller](#controllers)) completamente separador de la vista e inconsciente de esta, facilitando las tareas de testing debido a que testear el controlador de forma aislada sin la vista y lo relacioando con dependecias DOM/Browser.
 [Volver Indice](#conceptos-basicos)
 
 ### Dependecy Injection
