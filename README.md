@@ -94,18 +94,18 @@ tecnología del lado del servidor.
 
 ### Filters
 Un filtro da formato al valor de una expresion para la visualizacion de los usuarios. Los filtros pueden ser usados en las plantillas de vistas, controladores o servicios. AngularJS cuenta con vaios filtros predeterminados para dar formato como el caso de modena (currency), fecha (Date), mayusculas (uppercase), minisculas (lowercase), json (json) e incluso nos brinda la facilidad de crear nuestros propios filtros.  Para aplicar filtros lo podemos hacer de la siguiente forma:
-```
+```javascript
 {{ valor | filtro }}
 
 {{ 100 | currency }}
 ```
 puedes aplicar varios filtros con la siguiente sintaxis:
-```
+```javascript
 {{ valor | filtro1:arg1:arg2:argN }}
 ```
 Puedes ver un pequeno ejemplo de codigo [AQUI](https://github.com/ngVenezuela/primeros-pasos/blob/master/Ejemplos/filter.html).
 Para crear tus propios filtros puedes guiarte por este ejemplo en la [documentacion oficial](https://docs.angularjs.org/guide/filter)
-```
+```javascript
 angular.module('myReverseFilterApp', [])
 .filter('reverse', function() {
   return function(input, uppercase) {
@@ -150,9 +150,9 @@ Data-bindig en aplicaciones Angular hace referencia a la sincronización automá
 
 ### Recursos En Linea
 
-- [Guia para Desarrolladores  oficial de AngularJS](https://docs.angularjs.org/guide) (English)
-- [Referencia del API oficial de AngularJS](https://docs.angularjs.org/api) (English)
-- [Curso de AngularJS en codecademy](https://www.codecademy.com/es/courses/learn-angularjs) (English)
-- [Shaping up with angular.JS](http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro) (English)
+- [Guia para Desarrolladores  oficial de AngularJS](https://docs.angularjs.org/guide) (Inglés)
+- [Referencia del API oficial de AngularJS](https://docs.angularjs.org/api) (Inglés)
+- [Curso de AngularJS en codecademy](https://www.codecademy.com/es/courses/learn-angularjs) (Inglés)
+- [Shaping up with angular.JS](http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro) (Inglés)
 
 [Volver](#ngvenezuela)
