@@ -94,9 +94,33 @@ tecnología del lado del servidor.
 [Volver Indice](#conceptos-basicos)
 
 ### Filters
+```
+{{ valor | filtro1:arg1:arg2:argN }}
+```
+Puedes ver un pequeno ejemplo de codigo [AQUI](#Ejemplos/filter.html).
+Para crear tus propios filtros puedes guiarte por este ejemplo en la [documentacion oficial](https://docs.angularjs.org/guide/filter)
+```
+angular.module('myReverseFilterApp', [])
+.filter('reverse', function() {
+  return function(input, uppercase) {
+    input = input || '';
+    var out = "";
+    for (var i = 0; i < input.length; i++) {
+      out = input.charAt(i) + out;
+    }
+    // conditional based on optional argument
+    if (uppercase) {
+      out = out.toUpperCase();
+    }
+    return out;
+  };
+})
+```
+primero se define el modulo de nuestra aplicación angular, luego se usa el método **filter** el cual recibe como primer parámetro el nombre de nuestro filtro personalizado y como segundo una función que retorna una nueva función en donde se especificaran los argumentos y la lógica que definirá nuestro nuevo formato.
 [Volver Indice](#conceptos-basicos)
 
 ### Data Binding
+Data-bindig en aplicaciones Angular hace referencia a la sincronización automática entre los los componentes del modelo ([Model](#models)) y las vista (Views).  Lo cual conlleva a que todo cambio realizado en el modelo estos serán reflejados en la vista y viceversa. Este proceso es conocido como Two-Way Data Binding, donde podemos considerar la vista como una proyección instantánea del modelo, lo que deja a el controlador ([controller](#controllers)) completamente separador de la vista e inconsciente de esta, facilitando las tareas de testing debido a que testear el controlador de forma aislada sin la vista y lo relacioando con dependecias DOM/Browser.
 [Volver Indice](#conceptos-basicos)
 
 ### Dependecy Injection
