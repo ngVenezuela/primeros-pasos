@@ -1,8 +1,14 @@
 # ngVenezuela
 
+<<<<<<< HEAD
 ![logo](https://github.com/ngVenezuela/press-kit/blob/master/img/logo/logo_angular.png)
 
  
+=======
+![logo](https://raw.githubusercontent.com/ngVenezuela/press-kit/master/img/logo/logo_angular_ve_github.png)
+
+
+>>>>>>> f4246daf1551143b80c5b05a819a31baad91efaf
 ¿Eres nuevo con Angular? Este repo te guiará un poco sobre cómo empezar a conocer este maravilloso framework. Aquí podrás encontrar:
 
   - [Conceptos Básicos.](#conceptos-basicos) 
