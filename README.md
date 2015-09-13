@@ -94,6 +94,13 @@ tecnología del lado del servidor.
 [Volver Indice](#conceptos-basicos)
 
 ### Filters
+Un filtro da formato al valor de una expresion para la visualizacion de los usuarios. Los filtros pueden ser usados en las plantillas de vistas, controladores o servicios. AngularJS cuenta con vaios filtros predeterminados para dar formato como el caso de modena (currency), fecha (Date), mayusculas (uppercase), minisculas (lowercase), json (json) e incluso nos brinda la facilidad de crear nuestros propios filtros.  Para aplicar filtros lo podemos hacer de la siguiente forma:
+```
+{{ valor | filtro }}
+
+{{ 100 | currency }}
+```
+puedes aplicar varios filtros con la siguiente sintaxis:
 ```
 {{ valor | filtro1:arg1:arg2:argN }}
 ```
