@@ -57,6 +57,9 @@ Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuest
 [Volver](#ngvenezuela)
 
 ### Que Es Un Framework
+Un Framework es un entorno o ambiente de trabajo para desarrollo; dependiendo del lenguaje normalmente integra componentes que facilitan el desarrollo de aplicaciones como el soporte de programa, bibliotecas, plantillas y más. 
+
+*Fuente: [Nubelo Blog](http://www.nubelo.com/blog/que-son-los-frameworks/)*
 
 [Volver Indice](#conceptos-basicos)
 
