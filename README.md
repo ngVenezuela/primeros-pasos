@@ -8,6 +8,7 @@
   - Códigos de Ejemplo Documentados.
   - [Enlaces y Referecias a Librerias.](#modulos-adicionales)
   - [Recursos en Linea.](#recursos-en-linea)
+  - [Libros](#libros)
 
 
 Somos una comunidad que promueve el aprendizaje colectivo, con miembros dispuestos a enseñar, aprender y compartir conocimientos. Queremos invitarte a que formes parte de ella. Encuentranos en nuetsras redes:
@@ -157,5 +158,12 @@ Data-bindig en aplicaciones Angular hace referencia a la sincronización automá
 - [Referencia del API oficial de AngularJS](https://docs.angularjs.org/api) (Inglés)
 - [Curso de AngularJS en codecademy](https://www.codecademy.com/es/courses/learn-angularjs) (Inglés)
 - [Shaping up with angular.JS](http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro) (Inglés)
+
+[Volver](#ngvenezuela)
+
+
+### Libros
+
+- [Etiqueta "angular" en www.allitebooks.com](http://www.allitebooks.com/?s=angularjs)
 
 [Volver](#ngvenezuela)
