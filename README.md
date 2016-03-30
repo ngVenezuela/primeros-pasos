@@ -165,5 +165,6 @@ Data-bindig en aplicaciones Angular hace referencia a la sincronización automá
 ### Libros
 
 - [Etiqueta "angular" en www.allitebooks.com](http://www.allitebooks.com/?s=angularjs)
+- [Desarrollo de aplicaciones web con AngularJS](https://bitbucket.org/romelgomez/desarrollo-de-aplicaciones-web-con-angular-js)
 
 [Volver](#ngvenezuela)
