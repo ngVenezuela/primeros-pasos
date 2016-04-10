@@ -79,6 +79,53 @@ tecnología del lado del servidor.
 [Volver Indice](#conceptos-basicos)
 
 ### Instalar AngularJS
+
+Para comenzar a usar Angular en tus proyectos tienes diferentes opciones:
+
+**Desde CDN**: 
+
+- Puede comenzar a usar angular desde un cdn agregando esta linea a tu HTML:
+
+```javascript
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/{version}/angular.min.js"></script>
+```
+
+```javascript
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+```
+- Debes estar conectado siempre a internet para el desarrollo o puedes ir  la direccion en el CDN y copiar el contenido en un archivo de texto plano y guardalo como angular.min.js y agregar a tu html.
+
+```javascript
+<script src="js/angular.min.js"></script>
+```
+
+**Version zip**
+
+- Puedes ir a la pagina oficial de [Angular](https://angularjs.org/) al elegir la opcion de download y descargar la version .zip tendras la opcion minificada y los modulos adicionales.
+
+**Usando Bower**
+```sh
+$ bower install angular#version
+```
+
+ejemplo:
+```sh
+$ bower install angular#1.5.3
+```
+
+**Usando NPM**
+
+- Tambien puedes usar npm para tener Angular en tus proyectos:
+
+```sh
+$ npm install angular@version
+```
+
+ejemplo:
+```sh
+$ npm install angular@1.5.3
+```
+
 [Volver Indice](#conceptos-basicos)
 
 ### Directives
