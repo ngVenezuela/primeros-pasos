@@ -80,7 +80,7 @@ tecnología del lado del servidor.
 
 ### Instalar AngularJS
 
-Para comenzar a usar Angular en tus proyectos tienes direfentes opciones:
+Para comenzar a usar Angular en tus proyectos tienes diferentes opciones:
 
 **Desde CDN**: 
 
