@@ -196,6 +196,7 @@ Data-bindig en aplicaciones Angular hace referencia a la sincronización automá
 
 - [Angular-resource](https://code.angularjs.org/1.4.4/angular-resource.min.js): el módulo **ngResource** provee soporte para interactuar con servicios REST-Full por medio del servicio **$resource**. 
 - [Angular-route](https://code.angularjs.org/1.4.4/angular-route.min.js): el modulo **ngRoute** provee servicios de enrutemiento y enlazado profundo, asi como tambien directivas para Aplicaciones Angular.
+- [UI Bootstrap](https://angular-ui.github.io/bootstrap/): el módulo **UI Bootstrap** provee de una gran cantidad de útiles directivas para nuestros proyectos.
 
 [Volver](#ngvenezuela)
 
